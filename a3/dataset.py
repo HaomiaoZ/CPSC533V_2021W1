@@ -15,5 +15,4 @@ class Dataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index):
         item = self.data[index]
-        # TODO YOUR CODE HERE
-        raise NotImplementedError()
+        return dict({'state':torch.tensor(item[0]),'action':torch.tensor(item[1])})

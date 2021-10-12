@@ -12,19 +12,27 @@ TEST_INTERVAL = 2
 
 ENV_NAME = 'CartPole-v0'
 
-dataset = Dataset(data_path="../{}_dataset.pkl".format(ENV_NAME))
+dataset = Dataset(data_path="{}_dataset.pkl".format(ENV_NAME))
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=BATCH_SIZE, num_workers=4)
 
 env = gym.make(ENV_NAME)
+# how to extract data from dataset
+# data_extracted = [y for x,y in enumerate(dataset.data)]
+# states = [y[0] for x,y in enumerate(data_extracted)]
+# actions = [y[1] for x,y in enumerate(data_extracted)]
+# states_ten = torch.tensor(states)
+# actions_ten = torch.tensor(actions)
+# torch.amin(states_ten,0)
+# torch.amax(states_ten,0)
 
 # TODO INITIALIZE YOUR MODEL HERE
-model = None
+model = MyModel(4,2)
 
 def train_behavioral_cloning():
     
     # TODO CHOOSE A OPTIMIZER AND A LOSS FUNCTION FOR TRAINING YOUR NETWORK
-    optimizer = None
-    loss_function = None
+    optimizer = torch.optim.SGD(model.parameters(),lr=LEARNING_RATE)
+    loss_function = torch.nn.CrossEntropyLoss()
 
     gradient_steps = 0
 
