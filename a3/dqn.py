@@ -1,3 +1,4 @@
+from os import stat
 import gym
 import math
 import random
@@ -12,12 +13,12 @@ BATCH_SIZE = 256
 GAMMA = 0.99
 EPS_EXPLORATION = 0.2
 TARGET_UPDATE = 10
-NUM_EPISODES = 4000
+NUM_EPISODES = 4000 #4000
 TEST_INTERVAL = 25
 LEARNING_RATE = 10e-4
 RENDER_INTERVAL = 20
 ENV_NAME = 'CartPole-v0'
-PRINT_INTERVAL = 1
+PRINT_INTERVAL = 1 #1
 
 env = gym.make(ENV_NAME)
 state_shape = len(env.reset())
@@ -33,10 +34,23 @@ optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE)
 
 def choose_action(state, test_mode=False):
     # TODO implement an epsilon-greedy strategy
+    if torch.rand(1)<EPS_EXPLORATION:
+        action = env.action_space.sample()
+    else:
+        action = torch.argmax(model(torch.from_numpy(state)))
+    return torch.tensor(action)
     raise NotImplementedError()
 
 def optimize_model(state, action, next_state, reward, done):
     # TODO given a tuple (s_t, a_t, s_{t+1}, r_t, done_t) update your model weights
+    loss_function = torch.nn.MSELoss()
+
+    if done:
+        y = reward
+    else:
+        y = reward+GAMMA*torch.max(target(torch.from_numpy(next_state)))
+
+    loss = loss_function(torch.tensor(y), model(torch.from_numpy(state))[action])
 
     optimizer.zero_grad()
     loss.backward()
@@ -51,7 +65,9 @@ def train_reinforcement_learning(render=False):
         state = env.reset()
         for t in count():
             action = choose_action(state)
-            next_state, reward, done, _ = env.step(action.cpu().numpy()[0][0])
+            #given
+            #next_state, reward, done, _ = env.step(action.cpu().numpy()[0][0])
+            next_state, reward, done, _ = env.step(action.cpu().numpy())
             steps_done += 1
             episode_total_reward += reward
 
