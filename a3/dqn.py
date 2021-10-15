@@ -14,12 +14,12 @@ BATCH_SIZE = 256
 GAMMA = 0.99
 EPS_EXPLORATION = 0.2
 TARGET_UPDATE = 10
-NUM_EPISODES = 10000 #4000
+NUM_EPISODES = 4000 #4000
 TEST_INTERVAL = 25
 LEARNING_RATE = 10e-4
 RENDER_INTERVAL = 20
-ENV_NAME = 'CartPole-v0'
-PRINT_INTERVAL = 1 #1
+ENV_NAME = 'CartPole-v0'#'CartPole-v0'
+PRINT_INTERVAL = 10 #1
 
 env = gym.make(ENV_NAME)
 state_shape = len(env.reset())
@@ -36,10 +36,10 @@ memory = ReplayBuffer()
 def choose_action(state, test_mode=False):
     # TODO implement an epsilon-greedy strategy
     if torch.rand(1)<EPS_EXPLORATION:
-        action = env.action_space.sample()
+        action = torch.tensor(env.action_space.sample())
     else:
         action = torch.argmax(model(torch.from_numpy(state)))
-    return torch.tensor(action)
+    return action
     raise NotImplementedError()
 
 def optimize_model(state, action, next_state, reward, done):
@@ -49,16 +49,16 @@ def optimize_model(state, action, next_state, reward, done):
     # single element
     if type(done) !=torch.Tensor:
         if done:
-            y = reward
+            y = torch.tensor(reward)
         else:
             y = reward+GAMMA*torch.max(target(torch.from_numpy(next_state)))
 
-        loss = loss_function(torch.tensor(y), model(torch.from_numpy(state))[action])
+        loss = loss_function(y, model(torch.from_numpy(state))[action])
 
     # batch_sample
     else:
-        y = reward+ torch.mul(done, GAMMA*torch.amax(target(next_state),dim=1))
-        loss = loss_function(y.reshape(-1,1), torch.gather(model(state),dim =1, index=action.long()))
+        y = reward+ torch.mul(1-done, GAMMA*torch.amax(target(next_state),dim=1))
+        loss = loss_function(y, torch.gather(model(state),dim =1, index=action.long()).flatten())
 
     optimizer.zero_grad()
     loss.backward()
@@ -81,8 +81,9 @@ def train_reinforcement_learning(render=False):
 
             #add replay buffer implementation
             memory.push(state, action, next_state, reward, done)
-
-            if memory.__len__()>BATCH_SIZE:
+            #optimize_model(state,action,next_state,reward,done)
+            
+            if len(memory)>BATCH_SIZE:
                 states, actions, next_states, rewards, dones = memory.sample(batch_size=BATCH_SIZE)
                 optimize_model(states, actions, next_states, rewards, dones)
             else:
