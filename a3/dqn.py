@@ -4,6 +4,7 @@ import math
 import random
 from itertools import count
 import torch
+from torch.functional import Tensor
 from eval_policy import eval_policy, device
 from model import MyModel
 from replay_buffer import ReplayBuffer
@@ -13,7 +14,7 @@ BATCH_SIZE = 256
 GAMMA = 0.99
 EPS_EXPLORATION = 0.2
 TARGET_UPDATE = 10
-NUM_EPISODES = 4000 #4000
+NUM_EPISODES = 10000 #4000
 TEST_INTERVAL = 25
 LEARNING_RATE = 10e-4
 RENDER_INTERVAL = 20
@@ -30,7 +31,7 @@ target.load_state_dict(model.state_dict())
 target.eval()
 
 optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE)
-# memory = ReplayBuffer()
+memory = ReplayBuffer()
 
 def choose_action(state, test_mode=False):
     # TODO implement an epsilon-greedy strategy
@@ -44,13 +45,20 @@ def choose_action(state, test_mode=False):
 def optimize_model(state, action, next_state, reward, done):
     # TODO given a tuple (s_t, a_t, s_{t+1}, r_t, done_t) update your model weights
     loss_function = torch.nn.MSELoss()
+    
+    # single element
+    if type(done) !=torch.Tensor:
+        if done:
+            y = reward
+        else:
+            y = reward+GAMMA*torch.max(target(torch.from_numpy(next_state)))
 
-    if done:
-        y = reward
+        loss = loss_function(torch.tensor(y), model(torch.from_numpy(state))[action])
+
+    # batch_sample
     else:
-        y = reward+GAMMA*torch.max(target(torch.from_numpy(next_state)))
-
-    loss = loss_function(torch.tensor(y), model(torch.from_numpy(state))[action])
+        y = reward+ torch.mul(done, GAMMA*torch.amax(target(next_state),dim=1))
+        loss = loss_function(y.reshape(-1,1), torch.gather(model(state),dim =1, index=action.long()))
 
     optimizer.zero_grad()
     loss.backward()
@@ -71,8 +79,15 @@ def train_reinforcement_learning(render=False):
             steps_done += 1
             episode_total_reward += reward
 
-            optimize_model(state, action, next_state, reward, done)
+            #add replay buffer implementation
+            memory.push(state, action, next_state, reward, done)
 
+            if memory.__len__()>BATCH_SIZE:
+                states, actions, next_states, rewards, dones = memory.sample(batch_size=BATCH_SIZE)
+                optimize_model(states, actions, next_states, rewards, dones)
+            else:
+                optimize_model(state,action,next_state,reward,done)
+            
             state = next_state
 
             if render:
@@ -92,7 +107,7 @@ def train_reinforcement_learning(render=False):
             score = eval_policy(policy=model, env=ENV_NAME, render=render)
             if score > best_score:
                 best_score = score
-                torch.save(model.state_dict(), "best_model_{}.pt".format(ENV_NAME))
+                torch.save(model.state_dict(), "best_model_{}_with_replay_buffer.pt".format(ENV_NAME))
                 print('saving model.')
             print("[TEST Episode {}] [Average Reward {}]".format(i_episode, score))
             print('-'*10)
