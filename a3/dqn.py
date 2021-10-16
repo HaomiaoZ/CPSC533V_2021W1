@@ -18,7 +18,7 @@ NUM_EPISODES = 4000 #4000
 TEST_INTERVAL = 25
 LEARNING_RATE = 10e-4
 RENDER_INTERVAL = 20
-ENV_NAME = 'CartPole-v0'#'CartPole-v0'
+ENV_NAME = 'LunarLander-v2'#'CartPole-v0'
 PRINT_INTERVAL = 10 #1
 
 env = gym.make(ENV_NAME)
@@ -87,7 +87,7 @@ def train_reinforcement_learning(render=False):
                 states, actions, next_states, rewards, dones = memory.sample(batch_size=BATCH_SIZE)
                 optimize_model(states, actions, next_states, rewards, dones)
             else:
-                optimize_model(state,action,next_state,reward,done)
+                optimize_model(state,action,next_state,float(reward),done)
             
             state = next_state
 
