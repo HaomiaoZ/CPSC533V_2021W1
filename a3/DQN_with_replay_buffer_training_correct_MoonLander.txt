@@ -1,0 +1,888 @@
+[Episode   10/4000] [Steps   67] [reward -152.0]
+[Episode   20/4000] [Steps  186] [reward -331.6]
+----------
+saving model.
+[TEST Episode 25] [Average Reward -181.72147819300054]
+----------
+[Episode   30/4000] [Steps  229] [reward -196.5]
+[Episode   40/4000] [Steps  148] [reward -67.8]
+[Episode   50/4000] [Steps  999] [reward 106.0]
+----------
+saving model.
+[TEST Episode 50] [Average Reward -98.09255422437082]
+----------
+[Episode   60/4000] [Steps  433] [reward -270.5]
+[Episode   70/4000] [Steps  252] [reward -49.5]
+----------
+saving model.
+[TEST Episode 75] [Average Reward 4.054194608695587]
+----------
+[Episode   80/4000] [Steps  280] [reward 12.7]
+[Episode   90/4000] [Steps  999] [reward 138.6]
+[Episode  100/4000] [Steps  419] [reward -84.5]
+----------
+[TEST Episode 100] [Average Reward -63.325453665170095]
+----------
+[Episode  110/4000] [Steps  708] [reward 147.2]
+[Episode  120/4000] [Steps  999] [reward -97.1]
+----------
+[TEST Episode 125] [Average Reward -64.10926100674001]
+----------
+[Episode  130/4000] [Steps  999] [reward -3.9]
+[Episode  140/4000] [Steps  999] [reward -105.4]
+[Episode  150/4000] [Steps  511] [reward 244.9]
+----------
+[TEST Episode 150] [Average Reward -98.67864229026561]
+----------
+[Episode  160/4000] [Steps  999] [reward -84.7]
+[Episode  170/4000] [Steps  999] [reward -62.7]
+----------
+[TEST Episode 175] [Average Reward -16.107391898396877]
+----------
+[Episode  180/4000] [Steps  561] [reward -123.0]
+[Episode  190/4000] [Steps  999] [reward -65.4]
+[Episode  200/4000] [Steps  999] [reward -37.5]
+----------
+[TEST Episode 200] [Average Reward -30.602217627725985]
+----------
+[Episode  210/4000] [Steps  999] [reward 40.2]
+[Episode  220/4000] [Steps  999] [reward -69.8]
+----------
+[TEST Episode 225] [Average Reward -39.6476921723949]
+----------
+[Episode  230/4000] [Steps  545] [reward -46.9]
+[Episode  240/4000] [Steps  999] [reward -7.6]
+[Episode  250/4000] [Steps  999] [reward 38.8]
+----------
+saving model.
+[TEST Episode 250] [Average Reward 55.52719734365562]
+----------
+[Episode  260/4000] [Steps  999] [reward 1.0]
+[Episode  270/4000] [Steps  923] [reward -187.5]
+----------
+saving model.
+[TEST Episode 275] [Average Reward 65.21045499679681]
+----------
+[Episode  280/4000] [Steps  999] [reward -52.7]
+[Episode  290/4000] [Steps  563] [reward -90.5]
+[Episode  300/4000] [Steps  719] [reward -254.4]
+----------
+saving model.
+[TEST Episode 300] [Average Reward 70.81069029525325]
+----------
+[Episode  310/4000] [Steps  514] [reward 152.5]
+[Episode  320/4000] [Steps  468] [reward -60.6]
+----------
+saving model.
+[TEST Episode 325] [Average Reward 183.57267059682368]
+----------
+[Episode  330/4000] [Steps  999] [reward 56.2]
+[Episode  340/4000] [Steps  999] [reward -73.0]
+[Episode  350/4000] [Steps  888] [reward 249.1]
+----------
+[TEST Episode 350] [Average Reward 149.22225992701598]
+----------
+[Episode  360/4000] [Steps  999] [reward 117.7]
+[Episode  370/4000] [Steps  999] [reward 78.5]
+----------
+[TEST Episode 375] [Average Reward 155.3525253665525]
+----------
+[Episode  380/4000] [Steps  170] [reward 26.4]
+[Episode  390/4000] [Steps  999] [reward 95.2]
+[Episode  400/4000] [Steps  957] [reward 155.9]
+----------
+[TEST Episode 400] [Average Reward 57.86589804387819]
+----------
+[Episode  410/4000] [Steps  178] [reward -0.1]
+[Episode  420/4000] [Steps  100] [reward -43.0]
+----------
+[TEST Episode 425] [Average Reward 20.456099601466523]
+----------
+[Episode  430/4000] [Steps  431] [reward 233.3]
+[Episode  440/4000] [Steps  999] [reward 109.0]
+[Episode  450/4000] [Steps  225] [reward -219.3]
+----------
+[TEST Episode 450] [Average Reward 97.94107819704377]
+----------
+[Episode  460/4000] [Steps  801] [reward 243.8]
+[Episode  470/4000] [Steps  119] [reward 33.0]
+----------
+[TEST Episode 475] [Average Reward 111.4914921277621]
+----------
+[Episode  480/4000] [Steps   91] [reward -40.4]
+[Episode  490/4000] [Steps  251] [reward 270.3]
+[Episode  500/4000] [Steps   87] [reward -65.6]
+----------
+[TEST Episode 500] [Average Reward -2.2800639830420364]
+----------
+[Episode  510/4000] [Steps  301] [reward 237.3]
+[Episode  520/4000] [Steps  999] [reward 51.1]
+----------
+saving model.
+[TEST Episode 525] [Average Reward 233.03435039822506]
+----------
+[Episode  530/4000] [Steps  999] [reward 123.3]
+[Episode  540/4000] [Steps  162] [reward -4.8]
+[Episode  550/4000] [Steps  244] [reward -33.6]
+----------
+[TEST Episode 550] [Average Reward 175.58176141852036]
+----------
+[Episode  560/4000] [Steps  726] [reward 169.9]
+[Episode  570/4000] [Steps  999] [reward 76.2]
+----------
+[TEST Episode 575] [Average Reward 185.74741164348]
+----------
+[Episode  580/4000] [Steps  422] [reward 225.0]
+[Episode  590/4000] [Steps  979] [reward 195.3]
+[Episode  600/4000] [Steps  999] [reward 64.4]
+----------
+[TEST Episode 600] [Average Reward 219.35109286279913]
+----------
+[Episode  610/4000] [Steps  818] [reward 229.7]
+[Episode  620/4000] [Steps  999] [reward 55.7]
+----------
+[TEST Episode 625] [Average Reward 160.98832018934553]
+----------
+[Episode  630/4000] [Steps  999] [reward 94.8]
+[Episode  640/4000] [Steps  779] [reward 226.1]
+[Episode  650/4000] [Steps  608] [reward 163.5]
+----------
+[TEST Episode 650] [Average Reward 206.25867116095893]
+----------
+[Episode  660/4000] [Steps  327] [reward 240.4]
+[Episode  670/4000] [Steps  310] [reward 181.8]
+----------
+[TEST Episode 675] [Average Reward 227.5336058820406]
+----------
+[Episode  680/4000] [Steps  616] [reward 221.7]
+[Episode  690/4000] [Steps  999] [reward 155.5]
+[Episode  700/4000] [Steps  344] [reward 269.8]
+----------
+[TEST Episode 700] [Average Reward 131.33980936373194]
+----------
+[Episode  710/4000] [Steps  944] [reward 229.8]
+[Episode  720/4000] [Steps  114] [reward -5.3]
+----------
+[TEST Episode 725] [Average Reward 145.1175166756538]
+----------
+[Episode  730/4000] [Steps  999] [reward 85.6]
+[Episode  740/4000] [Steps  501] [reward 231.4]
+[Episode  750/4000] [Steps  767] [reward 304.0]
+----------
+[TEST Episode 750] [Average Reward 104.32563321348952]
+----------
+[Episode  760/4000] [Steps  115] [reward -11.8]
+[Episode  770/4000] [Steps  122] [reward 5.9]
+----------
+[TEST Episode 775] [Average Reward 204.93171083376916]
+----------
+[Episode  780/4000] [Steps  999] [reward 125.5]
+[Episode  790/4000] [Steps  173] [reward 48.5]
+[Episode  800/4000] [Steps  166] [reward -9.0]
+----------
+[TEST Episode 800] [Average Reward 151.58048937183528]
+----------
+[Episode  810/4000] [Steps  120] [reward 7.1]
+[Episode  820/4000] [Steps  999] [reward 41.8]
+----------
+[TEST Episode 825] [Average Reward 114.18741957132006]
+----------
+[Episode  830/4000] [Steps  224] [reward 239.5]
+[Episode  840/4000] [Steps  260] [reward -162.7]
+[Episode  850/4000] [Steps  158] [reward -7.1]
+----------
+[TEST Episode 850] [Average Reward 107.1912070729866]
+----------
+[Episode  860/4000] [Steps  130] [reward 8.9]
+[Episode  870/4000] [Steps  999] [reward 55.5]
+----------
+[TEST Episode 875] [Average Reward 71.5384469691719]
+----------
+[Episode  880/4000] [Steps  850] [reward 147.1]
+[Episode  890/4000] [Steps  466] [reward 246.5]
+[Episode  900/4000] [Steps  862] [reward 240.3]
+----------
+[TEST Episode 900] [Average Reward 82.84574057643674]
+----------
+[Episode  910/4000] [Steps  756] [reward 256.4]
+[Episode  920/4000] [Steps  213] [reward 274.8]
+----------
+[TEST Episode 925] [Average Reward 14.662914260445792]
+----------
+[Episode  930/4000] [Steps   71] [reward -23.9]
+[Episode  940/4000] [Steps   86] [reward -29.4]
+[Episode  950/4000] [Steps   97] [reward 13.8]
+----------
+[TEST Episode 950] [Average Reward 10.638837480798571]
+----------
+[Episode  960/4000] [Steps   61] [reward -60.2]
+[Episode  970/4000] [Steps  690] [reward 233.1]
+----------
+[TEST Episode 975] [Average Reward 43.50992404491321]
+----------
+[Episode  980/4000] [Steps  999] [reward 74.8]
+[Episode  990/4000] [Steps  209] [reward -10.2]
+[Episode 1000/4000] [Steps  139] [reward 14.3]
+----------
+[TEST Episode 1000] [Average Reward 91.63995292614607]
+----------
+[Episode 1010/4000] [Steps  165] [reward -84.2]
+[Episode 1020/4000] [Steps  353] [reward 284.6]
+----------
+[TEST Episode 1025] [Average Reward 142.2277287703676]
+----------
+[Episode 1030/4000] [Steps  192] [reward 278.9]
+[Episode 1040/4000] [Steps  340] [reward 277.7]
+[Episode 1050/4000] [Steps  138] [reward -95.2]
+----------
+[TEST Episode 1050] [Average Reward -59.633987190805456]
+----------
+[Episode 1060/4000] [Steps   97] [reward -280.0]
+[Episode 1070/4000] [Steps  500] [reward 252.5]
+----------
+[TEST Episode 1075] [Average Reward 176.70842284558256]
+----------
+[Episode 1080/4000] [Steps  195] [reward -29.4]
+[Episode 1090/4000] [Steps  999] [reward 105.4]
+[Episode 1100/4000] [Steps  118] [reward 12.9]
+----------
+[TEST Episode 1100] [Average Reward -24.23769115249489]
+----------
+[Episode 1110/4000] [Steps  118] [reward -25.0]
+[Episode 1120/4000] [Steps  127] [reward -288.3]
+----------
+[TEST Episode 1125] [Average Reward -51.64734581121636]
+----------
+[Episode 1130/4000] [Steps  999] [reward 126.4]
+[Episode 1140/4000] [Steps  411] [reward 274.7]
+[Episode 1150/4000] [Steps   86] [reward 21.3]
+----------
+[TEST Episode 1150] [Average Reward -96.75416588647542]
+----------
+[Episode 1160/4000] [Steps  205] [reward -58.0]
+[Episode 1170/4000] [Steps  257] [reward -202.4]
+----------
+[TEST Episode 1175] [Average Reward -41.912921418513484]
+----------
+[Episode 1180/4000] [Steps  214] [reward -258.9]
+[Episode 1190/4000] [Steps  123] [reward 1.3]
+[Episode 1200/4000] [Steps   93] [reward -1.3]
+----------
+[TEST Episode 1200] [Average Reward -16.81048374380179]
+----------
+[Episode 1210/4000] [Steps  194] [reward -34.0]
+[Episode 1220/4000] [Steps  139] [reward -135.6]
+----------
+[TEST Episode 1225] [Average Reward 56.34452356632147]
+----------
+[Episode 1230/4000] [Steps  543] [reward 256.5]
+[Episode 1240/4000] [Steps  115] [reward 26.1]
+[Episode 1250/4000] [Steps   96] [reward 4.3]
+----------
+[TEST Episode 1250] [Average Reward -32.280206749734006]
+----------
+[Episode 1260/4000] [Steps  154] [reward -186.7]
+[Episode 1270/4000] [Steps  114] [reward 0.9]
+----------
+[TEST Episode 1275] [Average Reward 36.32151693066545]
+----------
+[Episode 1280/4000] [Steps   92] [reward -58.0]
+[Episode 1290/4000] [Steps   86] [reward 53.0]
+[Episode 1300/4000] [Steps   82] [reward 4.9]
+----------
+[TEST Episode 1300] [Average Reward -9.151174711789603]
+----------
+[Episode 1310/4000] [Steps  131] [reward -12.6]
+[Episode 1320/4000] [Steps  170] [reward 5.8]
+----------
+[TEST Episode 1325] [Average Reward -44.77843719920069]
+----------
+[Episode 1330/4000] [Steps   98] [reward -49.7]
+[Episode 1340/4000] [Steps  181] [reward -65.8]
+[Episode 1350/4000] [Steps   79] [reward -102.2]
+----------
+[TEST Episode 1350] [Average Reward -125.8745754396349]
+----------
+[Episode 1360/4000] [Steps  286] [reward -344.0]
+[Episode 1370/4000] [Steps   90] [reward -87.6]
+----------
+[TEST Episode 1375] [Average Reward -77.71587808240926]
+----------
+[Episode 1380/4000] [Steps   86] [reward -84.6]
+[Episode 1390/4000] [Steps   86] [reward -62.6]
+[Episode 1400/4000] [Steps   92] [reward -145.5]
+----------
+[TEST Episode 1400] [Average Reward -70.11457223875558]
+----------
+[Episode 1410/4000] [Steps   85] [reward -96.5]
+[Episode 1420/4000] [Steps   91] [reward -53.9]
+----------
+[TEST Episode 1425] [Average Reward -8.457835398679808]
+----------
+[Episode 1430/4000] [Steps   82] [reward -104.7]
+[Episode 1440/4000] [Steps   70] [reward -129.3]
+[Episode 1450/4000] [Steps   91] [reward -754.4]
+----------
+[TEST Episode 1450] [Average Reward -50.866396656658516]
+----------
+[Episode 1460/4000] [Steps  101] [reward -98.8]
+[Episode 1470/4000] [Steps   92] [reward -62.0]
+----------
+[TEST Episode 1475] [Average Reward -75.07230776747127]
+----------
+[Episode 1480/4000] [Steps  128] [reward -18.6]
+[Episode 1490/4000] [Steps   84] [reward -9.5]
+[Episode 1500/4000] [Steps  157] [reward -254.8]
+----------
+[TEST Episode 1500] [Average Reward -4.279914162259142]
+----------
+[Episode 1510/4000] [Steps  119] [reward -10.9]
+[Episode 1520/4000] [Steps   91] [reward -312.5]
+----------
+[TEST Episode 1525] [Average Reward -165.7261814737384]
+----------
+[Episode 1530/4000] [Steps  129] [reward 30.0]
+[Episode 1540/4000] [Steps  195] [reward -152.7]
+[Episode 1550/4000] [Steps   79] [reward -50.0]
+----------
+[TEST Episode 1550] [Average Reward -138.7009768729196]
+----------
+[Episode 1560/4000] [Steps   90] [reward -38.8]
+[Episode 1570/4000] [Steps  102] [reward 28.0]
+----------
+[TEST Episode 1575] [Average Reward 48.555814407029914]
+----------
+[Episode 1580/4000] [Steps  134] [reward -156.3]
+[Episode 1590/4000] [Steps  216] [reward -180.6]
+[Episode 1600/4000] [Steps   95] [reward 29.7]
+----------
+[TEST Episode 1600] [Average Reward -88.65717780503466]
+----------
+[Episode 1610/4000] [Steps  110] [reward -17.5]
+[Episode 1620/4000] [Steps  999] [reward 125.3]
+----------
+[TEST Episode 1625] [Average Reward 43.95611616933382]
+----------
+[Episode 1630/4000] [Steps  206] [reward -49.5]
+[Episode 1640/4000] [Steps  256] [reward -256.9]
+[Episode 1650/4000] [Steps  140] [reward -86.7]
+----------
+[TEST Episode 1650] [Average Reward 161.7563376730355]
+----------
+[Episode 1660/4000] [Steps  999] [reward 68.3]
+[Episode 1670/4000] [Steps  552] [reward 239.5]
+----------
+[TEST Episode 1675] [Average Reward 76.66491680988048]
+----------
+[Episode 1680/4000] [Steps  152] [reward 18.7]
+[Episode 1690/4000] [Steps  999] [reward 125.1]
+[Episode 1700/4000] [Steps  937] [reward 130.3]
+----------
+[TEST Episode 1700] [Average Reward 90.87082360800984]
+----------
+[Episode 1710/4000] [Steps   82] [reward -75.0]
+[Episode 1720/4000] [Steps  163] [reward -13.8]
+----------
+[TEST Episode 1725] [Average Reward 168.30694548914857]
+----------
+[Episode 1730/4000] [Steps  999] [reward 47.3]
+[Episode 1740/4000] [Steps  472] [reward 249.5]
+[Episode 1750/4000] [Steps  999] [reward 164.8]
+----------
+[TEST Episode 1750] [Average Reward 115.79934612483471]
+----------
+[Episode 1760/4000] [Steps  999] [reward 154.8]
+[Episode 1770/4000] [Steps   72] [reward -51.2]
+----------
+[TEST Episode 1775] [Average Reward -148.5258387076713]
+----------
+[Episode 1780/4000] [Steps  108] [reward -83.7]
+[Episode 1790/4000] [Steps  131] [reward 17.7]
+[Episode 1800/4000] [Steps  158] [reward -48.4]
+----------
+[TEST Episode 1800] [Average Reward 68.01506668629222]
+----------
+[Episode 1810/4000] [Steps  104] [reward -248.8]
+[Episode 1820/4000] [Steps   82] [reward -12.2]
+----------
+[TEST Episode 1825] [Average Reward 54.21646659368339]
+----------
+[Episode 1830/4000] [Steps  103] [reward 45.8]
+[Episode 1840/4000] [Steps  130] [reward -47.8]
+[Episode 1850/4000] [Steps  153] [reward -284.5]
+----------
+[TEST Episode 1850] [Average Reward 51.92407648837843]
+----------
+[Episode 1860/4000] [Steps  999] [reward 44.1]
+[Episode 1870/4000] [Steps  135] [reward 6.0]
+----------
+[TEST Episode 1875] [Average Reward 89.38287488548664]
+----------
+[Episode 1880/4000] [Steps  142] [reward 9.3]
+[Episode 1890/4000] [Steps   95] [reward -63.0]
+[Episode 1900/4000] [Steps  999] [reward 153.2]
+----------
+[TEST Episode 1900] [Average Reward -1.6042781557707542]
+----------
+[Episode 1910/4000] [Steps  146] [reward -51.9]
+[Episode 1920/4000] [Steps  121] [reward -7.3]
+----------
+[TEST Episode 1925] [Average Reward -23.353975940902906]
+----------
+[Episode 1930/4000] [Steps  999] [reward 133.0]
+[Episode 1940/4000] [Steps  999] [reward 88.7]
+[Episode 1950/4000] [Steps  579] [reward -148.8]
+----------
+[TEST Episode 1950] [Average Reward -4.49639513778326]
+----------
+[Episode 1960/4000] [Steps  114] [reward -6.0]
+[Episode 1970/4000] [Steps   97] [reward -11.9]
+----------
+[TEST Episode 1975] [Average Reward -94.22841053393867]
+----------
+[Episode 1980/4000] [Steps   93] [reward 7.6]
+[Episode 1990/4000] [Steps  206] [reward -431.9]
+[Episode 2000/4000] [Steps  103] [reward 2.2]
+----------
+[TEST Episode 2000] [Average Reward 12.689779358873785]
+----------
+[Episode 2010/4000] [Steps  110] [reward -42.4]
+[Episode 2020/4000] [Steps  194] [reward -17.5]
+----------
+[TEST Episode 2025] [Average Reward -44.77928802250183]
+----------
+[Episode 2030/4000] [Steps  110] [reward 9.6]
+[Episode 2040/4000] [Steps   96] [reward -9.6]
+[Episode 2050/4000] [Steps   81] [reward -17.8]
+----------
+[TEST Episode 2050] [Average Reward -129.27963775369645]
+----------
+[Episode 2060/4000] [Steps   81] [reward -48.6]
+[Episode 2070/4000] [Steps   65] [reward -165.2]
+----------
+[TEST Episode 2075] [Average Reward 16.08960809641477]
+----------
+[Episode 2080/4000] [Steps   85] [reward -88.5]
+[Episode 2090/4000] [Steps   58] [reward -141.7]
+[Episode 2100/4000] [Steps   89] [reward -41.4]
+----------
+[TEST Episode 2100] [Average Reward -36.23514467698702]
+----------
+[Episode 2110/4000] [Steps   93] [reward -90.0]
+[Episode 2120/4000] [Steps  110] [reward -28.0]
+----------
+[TEST Episode 2125] [Average Reward -94.35723977144028]
+----------
+[Episode 2130/4000] [Steps  107] [reward -55.8]
+[Episode 2140/4000] [Steps   84] [reward -204.5]
+[Episode 2150/4000] [Steps   97] [reward 45.1]
+----------
+[TEST Episode 2150] [Average Reward -35.81895806262254]
+----------
+[Episode 2160/4000] [Steps  188] [reward -34.8]
+[Episode 2170/4000] [Steps   72] [reward 28.5]
+----------
+[TEST Episode 2175] [Average Reward -30.483848169250585]
+----------
+[Episode 2180/4000] [Steps  329] [reward 223.2]
+[Episode 2190/4000] [Steps   94] [reward -72.4]
+[Episode 2200/4000] [Steps   68] [reward -9.0]
+----------
+[TEST Episode 2200] [Average Reward -51.01239197579553]
+----------
+[Episode 2210/4000] [Steps   90] [reward -20.4]
+[Episode 2220/4000] [Steps  117] [reward -44.3]
+----------
+[TEST Episode 2225] [Average Reward -414.95180640932983]
+----------
+[Episode 2230/4000] [Steps  164] [reward -5.3]
+[Episode 2240/4000] [Steps   97] [reward 32.7]
+[Episode 2250/4000] [Steps   99] [reward -69.5]
+----------
+[TEST Episode 2250] [Average Reward -46.04564633918038]
+----------
+[Episode 2260/4000] [Steps  116] [reward 3.7]
+[Episode 2270/4000] [Steps  107] [reward -65.1]
+----------
+[TEST Episode 2275] [Average Reward -12.581978046682945]
+----------
+[Episode 2280/4000] [Steps   82] [reward -15.5]
+[Episode 2290/4000] [Steps   73] [reward 4.9]
+[Episode 2300/4000] [Steps   72] [reward -10.9]
+----------
+[TEST Episode 2300] [Average Reward -75.13805844203205]
+----------
+[Episode 2310/4000] [Steps   99] [reward 8.5]
+[Episode 2320/4000] [Steps  111] [reward -173.7]
+----------
+[TEST Episode 2325] [Average Reward -84.5351932269418]
+----------
+[Episode 2330/4000] [Steps  256] [reward 4.7]
+[Episode 2340/4000] [Steps   95] [reward -219.1]
+[Episode 2350/4000] [Steps   84] [reward -9.3]
+----------
+[TEST Episode 2350] [Average Reward -77.52795240166077]
+----------
+[Episode 2360/4000] [Steps   96] [reward -34.2]
+[Episode 2370/4000] [Steps  109] [reward -24.1]
+----------
+[TEST Episode 2375] [Average Reward 130.91184351070294]
+----------
+[Episode 2380/4000] [Steps   98] [reward -24.1]
+[Episode 2390/4000] [Steps  118] [reward -2.7]
+[Episode 2400/4000] [Steps  123] [reward 22.7]
+----------
+[TEST Episode 2400] [Average Reward 10.61512048751783]
+----------
+[Episode 2410/4000] [Steps  999] [reward 76.2]
+[Episode 2420/4000] [Steps  999] [reward 67.8]
+----------
+[TEST Episode 2425] [Average Reward -206.82690439036483]
+----------
+[Episode 2430/4000] [Steps  118] [reward 6.6]
+[Episode 2440/4000] [Steps  105] [reward -498.1]
+[Episode 2450/4000] [Steps  186] [reward -202.2]
+----------
+[TEST Episode 2450] [Average Reward 17.888919157132328]
+----------
+[Episode 2460/4000] [Steps  536] [reward 185.2]
+[Episode 2470/4000] [Steps   80] [reward -55.3]
+----------
+[TEST Episode 2475] [Average Reward -62.26903751445529]
+----------
+[Episode 2480/4000] [Steps   86] [reward -18.6]
+[Episode 2490/4000] [Steps  125] [reward -73.1]
+[Episode 2500/4000] [Steps  250] [reward -157.7]
+----------
+[TEST Episode 2500] [Average Reward -238.76199978180657]
+----------
+[Episode 2510/4000] [Steps   79] [reward -9.3]
+[Episode 2520/4000] [Steps  120] [reward -280.7]
+----------
+[TEST Episode 2525] [Average Reward -105.93996270084747]
+----------
+[Episode 2530/4000] [Steps   71] [reward -84.3]
+[Episode 2540/4000] [Steps  358] [reward -170.2]
+[Episode 2550/4000] [Steps   86] [reward 22.9]
+----------
+[TEST Episode 2550] [Average Reward -104.02782322519474]
+----------
+[Episode 2560/4000] [Steps  105] [reward -27.6]
+[Episode 2570/4000] [Steps  999] [reward 106.7]
+----------
+[TEST Episode 2575] [Average Reward -67.65965935431912]
+----------
+[Episode 2580/4000] [Steps  119] [reward -8.6]
+[Episode 2590/4000] [Steps  148] [reward -156.8]
+[Episode 2600/4000] [Steps  137] [reward 22.2]
+----------
+[TEST Episode 2600] [Average Reward -257.1303013677258]
+----------
+[Episode 2610/4000] [Steps  999] [reward 103.5]
+[Episode 2620/4000] [Steps  121] [reward -79.5]
+----------
+[TEST Episode 2625] [Average Reward -109.07846412115862]
+----------
+[Episode 2630/4000] [Steps  108] [reward -130.0]
+[Episode 2640/4000] [Steps  143] [reward -17.4]
+[Episode 2650/4000] [Steps  118] [reward -67.5]
+----------
+[TEST Episode 2650] [Average Reward -140.74898371487262]
+----------
+[Episode 2660/4000] [Steps  396] [reward -33.3]
+[Episode 2670/4000] [Steps  100] [reward -84.9]
+----------
+[TEST Episode 2675] [Average Reward 16.741512580530475]
+----------
+[Episode 2680/4000] [Steps  201] [reward -47.7]
+[Episode 2690/4000] [Steps  999] [reward 164.3]
+[Episode 2700/4000] [Steps  999] [reward 119.5]
+----------
+[TEST Episode 2700] [Average Reward -41.58957481799787]
+----------
+[Episode 2710/4000] [Steps  179] [reward -150.4]
+[Episode 2720/4000] [Steps  292] [reward -277.1]
+----------
+[TEST Episode 2725] [Average Reward -86.68963136296719]
+----------
+[Episode 2730/4000] [Steps  103] [reward -18.6]
+[Episode 2740/4000] [Steps  999] [reward 73.0]
+[Episode 2750/4000] [Steps  999] [reward 118.2]
+----------
+[TEST Episode 2750] [Average Reward 100.76774132815946]
+----------
+[Episode 2760/4000] [Steps  984] [reward 210.9]
+[Episode 2770/4000] [Steps  251] [reward -287.8]
+----------
+[TEST Episode 2775] [Average Reward -109.91455730504781]
+----------
+[Episode 2780/4000] [Steps  114] [reward -149.6]
+[Episode 2790/4000] [Steps  999] [reward 127.2]
+[Episode 2800/4000] [Steps  999] [reward -50.4]
+----------
+[TEST Episode 2800] [Average Reward -322.03519387990093]
+----------
+[Episode 2810/4000] [Steps   74] [reward -47.8]
+[Episode 2820/4000] [Steps  999] [reward 68.2]
+----------
+[TEST Episode 2825] [Average Reward 36.63607299126041]
+----------
+[Episode 2830/4000] [Steps  999] [reward 141.0]
+[Episode 2840/4000] [Steps  554] [reward -288.5]
+[Episode 2850/4000] [Steps  181] [reward -3.5]
+----------
+[TEST Episode 2850] [Average Reward -64.23288751186703]
+----------
+[Episode 2860/4000] [Steps  180] [reward -145.9]
+[Episode 2870/4000] [Steps   61] [reward -204.6]
+----------
+[TEST Episode 2875] [Average Reward -81.04392326390662]
+----------
+[Episode 2880/4000] [Steps  999] [reward 71.6]
+[Episode 2890/4000] [Steps  205] [reward -285.2]
+[Episode 2900/4000] [Steps  999] [reward 115.9]
+----------
+[TEST Episode 2900] [Average Reward -0.5146696361000295]
+----------
+[Episode 2910/4000] [Steps  174] [reward -238.4]
+[Episode 2920/4000] [Steps   80] [reward -262.5]
+----------
+[TEST Episode 2925] [Average Reward -191.07450899464683]
+----------
+[Episode 2930/4000] [Steps   63] [reward -107.4]
+[Episode 2940/4000] [Steps  100] [reward -102.7]
+[Episode 2950/4000] [Steps  233] [reward -32.7]
+----------
+[TEST Episode 2950] [Average Reward -43.473358358547]
+----------
+[Episode 2960/4000] [Steps  999] [reward 97.0]
+[Episode 2970/4000] [Steps   94] [reward -172.4]
+----------
+[TEST Episode 2975] [Average Reward 57.10253998931796]
+----------
+[Episode 2980/4000] [Steps  102] [reward -22.0]
+[Episode 2990/4000] [Steps  102] [reward 51.9]
+[Episode 3000/4000] [Steps  999] [reward 17.2]
+----------
+[TEST Episode 3000] [Average Reward -66.61943468853724]
+----------
+[Episode 3010/4000] [Steps   84] [reward -313.6]
+[Episode 3020/4000] [Steps  999] [reward 53.5]
+----------
+[TEST Episode 3025] [Average Reward -136.4524356481514]
+----------
+[Episode 3030/4000] [Steps  609] [reward 129.1]
+[Episode 3040/4000] [Steps  999] [reward 68.6]
+[Episode 3050/4000] [Steps   66] [reward -106.8]
+----------
+[TEST Episode 3050] [Average Reward -94.79940557990525]
+----------
+[Episode 3060/4000] [Steps  703] [reward -244.6]
+[Episode 3070/4000] [Steps  167] [reward 2.0]
+----------
+[TEST Episode 3075] [Average Reward -44.382914131766064]
+----------
+[Episode 3080/4000] [Steps  481] [reward -193.4]
+[Episode 3090/4000] [Steps  122] [reward -49.2]
+[Episode 3100/4000] [Steps   69] [reward -155.8]
+----------
+[TEST Episode 3100] [Average Reward -360.380374810584]
+----------
+[Episode 3110/4000] [Steps  109] [reward -3.5]
+[Episode 3120/4000] [Steps  523] [reward -335.8]
+----------
+[TEST Episode 3125] [Average Reward -184.5130993972149]
+----------
+[Episode 3130/4000] [Steps  136] [reward -144.3]
+[Episode 3140/4000] [Steps  164] [reward -158.7]
+[Episode 3150/4000] [Steps  172] [reward -243.0]
+----------
+[TEST Episode 3150] [Average Reward -267.03967456757556]
+----------
+[Episode 3160/4000] [Steps  126] [reward -144.7]
+[Episode 3170/4000] [Steps  250] [reward -22.1]
+----------
+[TEST Episode 3175] [Average Reward -136.57484529645095]
+----------
+[Episode 3180/4000] [Steps  151] [reward -85.8]
+[Episode 3190/4000] [Steps  131] [reward -22.0]
+[Episode 3200/4000] [Steps  295] [reward -274.3]
+----------
+[TEST Episode 3200] [Average Reward -79.61325900675637]
+----------
+[Episode 3210/4000] [Steps  277] [reward -315.6]
+[Episode 3220/4000] [Steps  127] [reward -587.5]
+----------
+[TEST Episode 3225] [Average Reward -156.37409115007816]
+----------
+[Episode 3230/4000] [Steps  761] [reward -103.5]
+[Episode 3240/4000] [Steps  391] [reward -106.8]
+[Episode 3250/4000] [Steps  622] [reward -142.4]
+----------
+[TEST Episode 3250] [Average Reward -205.78868161446516]
+----------
+[Episode 3260/4000] [Steps  115] [reward -311.7]
+[Episode 3270/4000] [Steps  180] [reward -48.1]
+----------
+[TEST Episode 3275] [Average Reward -135.93810869670992]
+----------
+[Episode 3280/4000] [Steps  119] [reward -341.6]
+[Episode 3290/4000] [Steps  222] [reward -50.5]
+[Episode 3300/4000] [Steps  142] [reward 18.6]
+----------
+[TEST Episode 3300] [Average Reward -127.97591686142698]
+----------
+[Episode 3310/4000] [Steps  120] [reward -43.9]
+[Episode 3320/4000] [Steps  295] [reward -56.3]
+----------
+[TEST Episode 3325] [Average Reward -192.90300716945666]
+----------
+[Episode 3330/4000] [Steps  240] [reward -150.6]
+[Episode 3340/4000] [Steps  135] [reward -180.8]
+[Episode 3350/4000] [Steps  268] [reward -156.3]
+----------
+[TEST Episode 3350] [Average Reward -150.97814215361262]
+----------
+[Episode 3360/4000] [Steps  240] [reward -204.2]
+[Episode 3370/4000] [Steps  134] [reward -168.6]
+----------
+[TEST Episode 3375] [Average Reward -32.97942386800691]
+----------
+[Episode 3380/4000] [Steps  116] [reward -159.4]
+[Episode 3390/4000] [Steps  999] [reward 101.4]
+[Episode 3400/4000] [Steps  999] [reward 126.1]
+----------
+[TEST Episode 3400] [Average Reward -252.919972526318]
+----------
+[Episode 3410/4000] [Steps  219] [reward -157.9]
+[Episode 3420/4000] [Steps  118] [reward -171.4]
+----------
+[TEST Episode 3425] [Average Reward -12.932423965533896]
+----------
+[Episode 3430/4000] [Steps  200] [reward -102.7]
+[Episode 3440/4000] [Steps  229] [reward -225.2]
+[Episode 3450/4000] [Steps  152] [reward -209.4]
+----------
+[TEST Episode 3450] [Average Reward -71.6332114615321]
+----------
+[Episode 3460/4000] [Steps  999] [reward 151.9]
+[Episode 3470/4000] [Steps  113] [reward -46.8]
+----------
+[TEST Episode 3475] [Average Reward -132.9117963868204]
+----------
+[Episode 3480/4000] [Steps  999] [reward 123.9]
+[Episode 3490/4000] [Steps   87] [reward -16.8]
+[Episode 3500/4000] [Steps  808] [reward 263.0]
+----------
+[TEST Episode 3500] [Average Reward -9.129852830329986]
+----------
+[Episode 3510/4000] [Steps  137] [reward 4.0]
+[Episode 3520/4000] [Steps  999] [reward -4.7]
+----------
+[TEST Episode 3525] [Average Reward -52.578026021766846]
+----------
+[Episode 3530/4000] [Steps  107] [reward -6.0]
+[Episode 3540/4000] [Steps  999] [reward 57.7]
+[Episode 3550/4000] [Steps  109] [reward -165.8]
+----------
+[TEST Episode 3550] [Average Reward -38.81839101756658]
+----------
+[Episode 3560/4000] [Steps  110] [reward 13.1]
+[Episode 3570/4000] [Steps  102] [reward 22.1]
+----------
+[TEST Episode 3575] [Average Reward -41.92004663130447]
+----------
+[Episode 3580/4000] [Steps  999] [reward 140.7]
+[Episode 3590/4000] [Steps  999] [reward 59.1]
+[Episode 3600/4000] [Steps  434] [reward -370.2]
+----------
+[TEST Episode 3600] [Average Reward 13.480234700653398]
+----------
+[Episode 3610/4000] [Steps   97] [reward -23.4]
+[Episode 3620/4000] [Steps  588] [reward 210.0]
+----------
+[TEST Episode 3625] [Average Reward -83.12489143911601]
+----------
+[Episode 3630/4000] [Steps  174] [reward -101.9]
+[Episode 3640/4000] [Steps  412] [reward -210.0]
+[Episode 3650/4000] [Steps  999] [reward 23.0]
+----------
+[TEST Episode 3650] [Average Reward 3.4103087534293706]
+----------
+[Episode 3660/4000] [Steps   88] [reward -88.9]
+[Episode 3670/4000] [Steps   93] [reward -12.2]
+----------
+[TEST Episode 3675] [Average Reward 67.04148526033589]
+----------
+[Episode 3680/4000] [Steps   75] [reward -99.0]
+[Episode 3690/4000] [Steps  144] [reward -197.4]
+[Episode 3700/4000] [Steps  347] [reward -343.2]
+----------
+[TEST Episode 3700] [Average Reward -121.51462535969813]
+----------
+[Episode 3710/4000] [Steps  999] [reward 123.7]
+[Episode 3720/4000] [Steps  109] [reward -54.1]
+----------
+[TEST Episode 3725] [Average Reward -231.43066960579736]
+----------
+[Episode 3730/4000] [Steps  109] [reward -6.6]
+[Episode 3740/4000] [Steps  222] [reward -339.4]
+[Episode 3750/4000] [Steps  104] [reward -107.1]
+----------
+[TEST Episode 3750] [Average Reward -245.13819647189206]
+----------
+[Episode 3760/4000] [Steps  999] [reward -227.2]
+[Episode 3770/4000] [Steps  999] [reward 27.1]
+----------
+[TEST Episode 3775] [Average Reward -46.300232332184564]
+----------
+[Episode 3780/4000] [Steps  999] [reward 94.5]
+[Episode 3790/4000] [Steps  143] [reward -198.9]
+[Episode 3800/4000] [Steps  999] [reward 85.1]
+----------
+[TEST Episode 3800] [Average Reward 109.64033860453193]
+----------
+[Episode 3810/4000] [Steps  413] [reward -74.1]
+[Episode 3820/4000] [Steps  140] [reward -70.2]
+----------
+[TEST Episode 3825] [Average Reward 48.51675796413424]
+----------
+[Episode 3830/4000] [Steps  137] [reward -178.2]
+[Episode 3840/4000] [Steps  443] [reward -199.4]
+[Episode 3850/4000] [Steps  221] [reward -111.2]
+----------
+[TEST Episode 3850] [Average Reward -306.46338767255315]
+----------
+[Episode 3860/4000] [Steps  148] [reward -89.6]
+[Episode 3870/4000] [Steps  242] [reward 8.6]
+----------
+[TEST Episode 3875] [Average Reward -160.98849530514644]
+----------
+[Episode 3880/4000] [Steps   85] [reward -224.6]
+[Episode 3890/4000] [Steps  722] [reward 203.7]
+[Episode 3900/4000] [Steps  344] [reward -238.9]
+----------
+[TEST Episode 3900] [Average Reward -508.8529392558121]
+----------
+[Episode 3910/4000] [Steps  229] [reward 11.4]
+[Episode 3920/4000] [Steps  205] [reward -267.6]
+----------
+[TEST Episode 3925] [Average Reward -201.47212321021533]
+----------
+[Episode 3930/4000] [Steps  109] [reward -126.2]
+[Episode 3940/4000] [Steps   72] [reward 22.8]
+[Episode 3950/4000] [Steps  146] [reward 26.7]
+----------
+[TEST Episode 3950] [Average Reward -103.67404746581876]
+----------
+[Episode 3960/4000] [Steps  144] [reward -193.6]
+[Episode 3970/4000] [Steps  150] [reward -182.2]
+----------
+[TEST Episode 3975] [Average Reward 19.596963879664173]
+----------
+[Episode 3980/4000] [Steps  399] [reward -189.9]
+[Episode 3990/4000] [Steps  188] [reward -59.6]
+[Episode 4000/4000] [Steps  930] [reward 245.2]
+----------
+[TEST Episode 4000] [Average Reward -145.68084834234844]
+----------
